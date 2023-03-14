@@ -1,9 +1,10 @@
 import "./globalStyles.scss";
+import { LandingPage } from "./views/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola Mundo</h1>
+      <LandingPage />
     </div>
   );
 }
