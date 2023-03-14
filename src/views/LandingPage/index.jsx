@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../../components/Navbar";
-import "./styles.scss";
+import "../../styles/landingpage.scss";
 
 export const LandingPage = () => {
   return (
