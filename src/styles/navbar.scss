@@ -1,0 +1,55 @@
+@use "./globalStyles.scss" as c;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.menu {
+  padding-top: 5px;
+  display: flex;
+}
+
+.menu li {
+  cursor: pointer;
+  margin: 0 5px;
+  display: flex;
+}
+
+.menu li:not(:last-child)::after {
+  content: "";
+  border-right: 2px solid white;
+  font-size: 9rem;
+  color: white;
+}
+
+.menu img {
+  width: 6rem;
+}
+
+.spannav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+}
+
+.user{
+  display: flex;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.user p{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user p:not(:last-child)::after{
+  content: "|";
+  padding: 0 5px;
+}
