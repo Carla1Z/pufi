@@ -9,10 +9,32 @@ $font-size2: 4rem;
   display: grid;
   grid-template-columns: 50% 50%;
 
-  img {
+  figure {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    display: inline-block;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    button {
+      display: none;
+      position: absolute;
+      bottom: 50%;
+      right: 50%;
+    }
+  }
+  figure:hover {
+    img {
+      filter: grayscale(70%);
+    }
+
+    button {
+      display: block;
+    }
   }
 
   div {
