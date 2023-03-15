@@ -6,6 +6,7 @@
   display: grid;
   align-items: center;
   justify-items: center;
+  margin-top: 20px;
 }
 
 .span {
@@ -29,9 +30,10 @@
   font-weight: 400;
 }
 
-form {
+.form {
   height: 3rem;
   position: relative;
+  margin: 20px 0;
 }
 
 .input,

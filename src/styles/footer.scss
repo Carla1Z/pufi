@@ -1,0 +1,42 @@
+@use "./globalStyles.scss" as c;
+
+.footer {
+  box-shadow: 0px -2px 5px c.$color2;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: c.$font-size1;
+  font-weight: 500;
+}
+
+.footer ul {
+  li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+}
+
+.purchase img,
+.network img {
+  width: 30px;
+  margin: 10px 5px;
+  height: auto;
+  cursor: pointer;
+}
+
+.purchase figure {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.securityspan {
+  font-size: 0.9rem;
+  color: c.$color2;
+}
+
+.network {
+  display: flex;
+  align-items: center;
+}

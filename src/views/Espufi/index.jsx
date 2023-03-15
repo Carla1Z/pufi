@@ -17,7 +17,7 @@ export const Espufi = () => {
         <p>SUSCRIBITE</p>
         <p>Y enterate de todas las novedades</p>
       </span>
-      <form>
+      <form className="form">
         <input type="text" className="input" placeholder="Ingresa tu email" />
         <button type="submit" className="btn">
           <AiOutlineArrowRight />
