@@ -8,10 +8,10 @@ export const PufiNap = () => {
     <div className="product" id="nap">
       <div>
         <img src={productnap} alt="nap" />
-        <h4>Pufi RAIN</h4>
+        <h4>Pufi NAP</h4>
         <p>Descripción del producto. Este es un texto simulado</p>
         <button>
-          <BsChevronRight /> más info
+          <BsChevronRight /> MÁS INFO
         </button>
       </div>
       <figure>

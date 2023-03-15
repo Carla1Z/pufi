@@ -19,7 +19,7 @@ export const PufiRain = () => {
         <p>Descripción del producto. Este es un texto simulado</p>
         <button>
           <BsChevronRight />
-          ver mas
+          VER MAS
         </button>
       </div>
     </div>

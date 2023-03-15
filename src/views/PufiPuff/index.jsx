@@ -8,11 +8,11 @@ export const PufiPuff = () => {
     <div className="product" id="puff">
       <div>
         <img src={productpuff} alt="puff" />
-        <h4>Pufi RAIN</h4>
+        <h4>Pufi PUFF</h4>
         <p>Descripción del producto. Este es un texto simulado</p>
         <button>
           <BsChevronRight />
-          ver mas
+          VER MAS
         </button>
       </div>
       <figure>

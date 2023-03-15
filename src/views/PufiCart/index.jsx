@@ -15,11 +15,11 @@ export const PufiCart = () => {
       </figure>
       <div>
         <img src={productcart} alt="cart" />
-        <h4>Pufi RAIN</h4>
+        <h4>Pufi CART</h4>
         <p>Descripción del producto. Este es un texto simulado</p>
         <button>
           <BsChevronRight />
-          ver mas
+          VER MAS
         </button>
       </div>
     </div>
