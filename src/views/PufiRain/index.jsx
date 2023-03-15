@@ -5,7 +5,7 @@ import "../../styles/product.scss";
 
 export const PufiRain = () => {
   return (
-    <div className="product" id="cart">
+    <div className="product" id="rain">
       <figure>
         <img
           src="https://images.pexels.com/photos/1451040/pexels-photo-1451040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
