@@ -7,8 +7,11 @@ export const LandingPage = () => {
     <div className="landingpage">
       <Navbar />
       <div className="description">
-        <h1 className="title">ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL.</h1>
-        <button>SHOP</button>
+        <span className="title">
+          <p>ESTÁR COMODO,</p>
+          <p>NUNCA FUE TAN FACIL.</p>
+        </span>
+        <button className="shop">SHOP</button>
       </div>
     </div>
   );

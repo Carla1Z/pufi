@@ -1,3 +1,5 @@
+@use "./globalStyles.scss" as c;
+
 .landingpage {
   background-image: url(../assets/carrousel1.jpg);
   background-size: cover;
@@ -13,6 +15,13 @@
   align-items: center;
 }
 
-.title{
-    color: white;
+.title {
+  color: white;
+  font-size: 6rem;
+  display: grid;
+  justify-items: center;
+}
+
+.shop {
+  @include c.shop();
 }
