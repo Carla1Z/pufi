@@ -1,3 +1,3 @@
 # Puffi
 
-<img src="src/assets/pufi.png" />
+<img src="src/assets/Pufi.png" />
